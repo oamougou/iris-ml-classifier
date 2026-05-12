@@ -158,6 +158,13 @@ h1, h2, h3 {
     padding: 1rem 1.2rem;
     margin-bottom: 1rem;
     font-size: 0.87rem;
+    color: #000000;
+}
+.sidebar-section strong {
+    color: #000000;
+}
+.sidebar-section br + * {
+    color: #000000;
 }
 </style>
 """, unsafe_allow_html=True)
